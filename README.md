@@ -76,3 +76,5 @@ Bioassay experiment is about survival test. For example, we have several dose of
     hist(theta,xlab="LD-50",breaks=20)
     quantile(theta,c(.025,.975))
 
+![image](https://user-images.githubusercontent.com/46899273/52823018-20bdda80-3079-11e9-9b8b-f2f2e745414b.png)
+
