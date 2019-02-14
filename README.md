@@ -1,10 +1,10 @@
 # Bioassay-Experiment
 Bioassay experiment is about survival test. For example, we have several dose of a treatment and randomly selected groups of experiment units. Then we record the number of death and build the model.
 
-#### 1. First, estimate the parameters α and β using ML.
-    bio.x = c(-0.86, -0.3, -0.05, 0.73)
-    bio.n = c(    5,    5,     5,    5)
-    bio.y = c(    0,    1,     3,    5)
+#### 1. First, estimate the parameters α and β using ML. 
+    bio.x = c(-0.86, -0.3, -0.05, 0.73) # the dose amount
+    bio.n = c(    5,    5,     5,    5) # the total number of experimental units
+    bio.y = c(    0,    1,     3,    5) # the total number of death
     bio.data = cbind(bio.x, bio.n, bio.y)
     print(bio.data)
     response = cbind(bio.y, bio.n - bio.y)
